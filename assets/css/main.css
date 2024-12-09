@@ -2188,7 +2188,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/teddyscene4.png");
+		background-image: url("../../images/background1.png");
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2210,7 +2210,7 @@ input, select, textarea {
 			z-index: 1;
 			margin: 0;
 			display: inline-block;
-			vertical-align: middle;
+			vertical-align: bottom;
 		}
 
 		#header header {
@@ -2341,6 +2341,7 @@ input, select, textarea {
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+				color: navy;
 			}
 
 				#nav > ul > li.active {
